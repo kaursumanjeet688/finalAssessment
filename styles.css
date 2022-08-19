@@ -1,0 +1,204 @@
+/* main page styles */
+.mainPage{
+    background-color: aqua;
+    margin: 50px 10%;
+}
+
+.profileImg{
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+#jobDesc{
+    padding: 40px;
+}
+
+.mainPage a{
+    text-decoration: none;
+    color: white;
+}
+
+#resumeBtn{
+    margin-right: 10px;
+}
+
+#contactBtn{
+    margin-left: 10px;
+}
+
+#contactBtn a{
+    color: black;
+}
+
+.mainPage button{
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+
+/* resume page styles */
+#resumePage{
+    background-image: url("bgImg.jpg");
+    background-size: cover;
+    background-color: black;
+    margin-top: 0px;
+}
+
+span {
+    color: rgb(255, 0, 0);
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 0px 50px;
+}
+
+.logoEl{
+    font-size: 30px;
+}
+
+.navEl{
+    font-size: 20px;
+}
+
+
+#nameSec{
+    height: 80vh;
+    padding-top: 50px;
+    width: 90%;
+    margin: 50px 5%;
+}
+
+#nameSec h1{
+    color: white;
+}
+
+#nameSec button{
+    margin-top: 50px;
+    padding: 20px 50px;
+    border: 3px solid rgb(255, 85, 0);
+    background-color: transparent;
+    color: rgb(255, 85, 0);
+}
+
+#nameSec button:hover{
+    background-color: rgb(255, 85, 0);
+    color: white;
+    font-size: large;
+}
+
+
+/* info section styles */
+#infoSec{
+    background-color: rgb(255, 255, 184);
+    padding: 100px 40px;
+}
+
+.leftSide{
+    width: 50%;
+    margin-right: 100px;
+}
+
+.basicInfohead{
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+.rightSS{
+    padding-top: 50px;
+}
+
+/* educational section styles */
+#eduSec{
+    background-color: darkslategrey;
+    padding: 100px;
+}
+
+#eduSec h2{
+    color: white;
+}
+
+.firstEdu{
+    margin: 5%;
+    background-color: antiquewhite;
+    height: 250px;
+}
+
+.leftEdu{
+    padding: 80px 50px 50px 50px;
+    background-color: blueviolet;
+}
+
+.rightEdu{
+    padding: 60px 50px 50px 80px;
+    text-align: left;
+}
+
+/* reflection section styles */
+#lastsection{
+    background-color: gainsboro;
+    padding: 100px;
+    height: 100vh;
+}
+
+#lastHeading{
+    padding-bottom: 50px;
+}
+
+.ques{
+    font-weight: bold;
+}
+
+
+
+/* contact me page styles */
+
+
+#hourly{
+    display: none;
+}
+
+textarea{
+    padding: 0px auto 0px auto;
+    display: none;
+}
+
+#contactPage{
+    background-image: url("bgImg.jpg");
+    background-size: cover;
+    background-color: black;
+    color: white;
+    margin-bottom: 100px;
+}
+
+
+
+#submitButton{
+    padding: 20px 50px;
+    border: 3px solid rgb(255, 85, 0);
+    background-color: transparent;
+    color: rgb(255, 85, 0);
+}
+
+#submitButton:hover{
+    background-color: rgb(255, 85, 0);
+    color: white;
+    font-size: large;
+}
+
+
+/* honesty styles */
+
+#honesty{
+    background-image: url("bgImg.jpg");
+    background-size: cover;
+    background-color: black;
+    color: white;
+}
+
+#honestyPage{
+    margin: 5% 10%;
+}
+
+.strongText{
+    font-weight: bold;
+}
